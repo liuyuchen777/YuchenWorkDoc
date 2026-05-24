@@ -1,2 +1,7 @@
 # Ignore the `build/` directory in the package root.
 /build
+
+# Generated outputs (reproducible from source)
+/_generated/
+
+.claude/

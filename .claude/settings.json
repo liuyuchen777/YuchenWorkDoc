@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /home/yushinr/.claude/projects/ -name \"MEMORY.md\" 2>/dev/null | head -20)",
+      "Read(//local/home/yushinr/.claude/projects/**)",
+      "Bash(mkdir -p work/2023 work/2024 work/2025 other templates _generated)",
+      "mcp__jci-science-model-mcp__data-metadata___list_tables",
+      "mcp__jci-science-model-mcp__workflow___list_skills",
+      "mcp__jci-science-model-mcp__knowledge-bank___kb_retrieve",
+      "Bash(find /workplace/yushinr/mcp/src/JCIBusinessAgentEval -type f | head -40)",
+      "Read(//workplace/yushinr/mcp/src/JCIBusinessAgentEval/**)",
+      "mcp__jci-science-model-mcp__data-metadata___get_table_schema",
+      "mcp__jci-science-model-mcp__data-analysis___execute_athena_query"
+    ],
+    "additionalDirectories": [
+      "/workplace/yushinr/YuchenWorkDoc/work"
+    ]
+  }
+}
