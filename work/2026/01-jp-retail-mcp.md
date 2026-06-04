@@ -33,3 +33,9 @@ Supported what-if modeling tool development with Vendor Growth Team (bilguunn@) 
 ## Impact & Results
 
 Platform serves JCI Japan marketplace (Marketplace ID 6) vendor managers with self-service analytics covering 115+ metrics across vendor business, ASIN content quality, and promotion analysis. Enables on-demand Monthly Business Reviews, event performance analysis (MDE, Prime Day, BFW), and actionable PSL recommendations with predicted GMS uplift.
+
+## Links
+
+- [Wiki: JCI Science Model MCP](https://w.amazon.com/bin/view/JCI/JCI-TEDS/Products/JCIScienceModelMCP/)
+- [Slack: #jp-retail-mcp-interest](https://amzn-wwc.slack.com/archives/C09UW14JACT) (250 users)
+- [Exract 2026 May status update](https://amzn-wwc.slack.com/archives/C09UW14JACT/p1780459890440139)

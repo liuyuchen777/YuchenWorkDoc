@@ -30,3 +30,8 @@ The framework is being positioned as general-purpose UX evaluation infrastructur
 ## Impact & Results
 
 Replaced ad-hoc manual testing with reproducible automated evaluation. Framework catches SQL errors, incorrect metric formulas, and tool selection regressions before deployment. Being extended as org-wide evaluation infrastructure for AI agent quality.
+
+## Links
+
+- [Demo: Eval Framework](https://jci-science-model-mcp-demo.beta.harmony.a2z.com/hackathon-eval-framework)
+- [Design Doc: Evaluation Framework](https://code.amazon.com/packages/JCIScienceModelMCPCDK/trees/mainline/--/doc/05_evaluation_framework)

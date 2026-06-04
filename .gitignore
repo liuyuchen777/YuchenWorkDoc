@@ -4,4 +4,5 @@
 # Generated outputs (reproducible from source)
 /_generated/
 
-.claude/
+.claude/settings.json
+reference/
