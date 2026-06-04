@@ -23,3 +23,9 @@ For evaluation gaps, I identified shortcomings between the current MoE capabilit
 ## Impact & Results
 
 Established the technical foundation for the customer review aspect integration work that followed. The investigation de-risked the embedding approach and informed the evaluation methodology used in subsequent weblabs.
+
+## Links
+
+- [Review Aspects Data Exploration](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/Reviewaspectsdataexploration)
+- [Customer Review Aspects Lexical Matching Experiment Design Direction](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/CustomerReviewAspectsLexicalMatchingExperimentDesignDirection)
+- [Searchable Customer Reviews with Aspects](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/SearchableCustomerReviews/)

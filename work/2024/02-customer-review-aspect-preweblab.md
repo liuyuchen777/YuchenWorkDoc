@@ -25,3 +25,9 @@ Based on these results, we made the decision to dial up.
 ## Impact & Results
 
 OPS: +$253MM annualized. IRR: -2.83 bps improvement. Completed QBR goal 4 months ahead of schedule. Established a reusable pre-weblab evaluation methodology for future DU weblabs.
+
+## Links
+
+- [Aspects Lexical Matching Pre-weblab Experiment Results](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/AspectsLexicalMatchingPre-weblabexperimentresults)
+- [Weblab Design: ASIN Aspects Data Indexing for Lexical Matching](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/Weblabdesignasinaspectsdataindexingforlexicalmatching)
+- [Searchable Customer Reviews with Aspects](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/SearchableCustomerReviews/)

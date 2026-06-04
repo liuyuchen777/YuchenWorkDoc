@@ -25,3 +25,9 @@ To ensure long-term stability, I productionized both the workflow and DocEVideoS
 ## Impact & Results
 
 Eliminated manual query replay and metric computation. Enabled continuous monitoring of relevance metrics during the video search development cycle. Successfully onboarded external teams (LKNN, VSAR) to use the workflow autonomously.
+
+## Links
+
+- [DU for Video Search](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/DUForVideoSearch/)
+- [Quality Metrics for Video Search Backend](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/QualityMetricsforVideoSearchBackend84)
+- [Video Search Architecture Design](https://quip-amazon.com/hTc4AZhwz5i0)

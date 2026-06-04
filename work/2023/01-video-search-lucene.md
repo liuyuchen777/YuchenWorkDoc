@@ -25,3 +25,9 @@ In addition to q2pt, I also developed ranking features for adult filtering, brow
 ## Impact & Results
 
 The structured process enabled the team to scale from 8 subtasks (M1) to 39 subtasks (M3) in successive milestones. The QU features I developed (q2pt, adult filtering, query specificity) became foundational ranking signals for the video search view.
+
+## Links
+
+- [DU for Video Search](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/DUForVideoSearch/)
+- [Video Search Architecture Design](https://quip-amazon.com/hTc4AZhwz5i0)
+- [Tales of Interest - Video Search matchset baseline](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/TalesofInterest-VideoSearchmatchsetbaselinebasedonsimulatedmatching)

@@ -21,3 +21,11 @@ I conducted pre-weblab evaluations for the DE/UK expansion weblab (SEARCH_SES_NA
 ## Impact & Results
 
 DE/JP weblab delivered +$53.4MM OPS/year with flat GCCP. Worldwide expansion (20 locales) delivered +$21MM OPS/year and +$3.4MM GCCP/year. RE now powers ~46% of navigation traffic worldwide. QBR goal #1062446 completed ahead of schedule (9/4 vs 9/30 target).
+
+## Links
+
+- [SEARCH_SPT_1179765 RE DE/JP Pre-weblab Evaluation](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/Navigation/SEARCH_SPT_1179765REDEJPpre-weblabevaluation)
+- [SEARCH_SPT_1200343 No-PT US Offline Evaluation](https://quip-amazon.com/Kbp3Ar6YgFIi)
+- [Weblab Bar Raiser: SEARCH_SPT_1179765](https://w.amazon.com/bin/view/Weblab/BarRaiser/SEARCH_SPT_1179765)
+- [RE EU/JP/IN Sync Log](https://quip-amazon.com/azuFAl37f8iL)
+- [DU for Navigation Wiki](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/Navigation/)

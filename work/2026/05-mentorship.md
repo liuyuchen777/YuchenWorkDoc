@@ -10,6 +10,7 @@ type: event
 
 I am mentoring two L4 engineers: Amane Takeuchi (BIE in Non-Local FC Fixed Support, joined Sep 2024) and Alex He (SDE in Search/CSNLP under Tetsuaki, joined Aug 2025). Both are based in Tokyo.
 
-## What I Did
+## Links
 
-TODO — expand with specific mentoring activities, topics covered, and growth outcomes.
+- [Alex He (alexxhe)](https://phonetool.amazon.com/users/alexxhe) — SDE, Search, L4
+- [Amane Takeuchi (amanetak)](https://phonetool.amazon.com/users/amanetak) — BIE, Non-Local FC Fixed Support, L4

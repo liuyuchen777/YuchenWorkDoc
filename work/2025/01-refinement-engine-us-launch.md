@@ -21,3 +21,13 @@ I contributed to feature building and feature configuration at the search metada
 ## Impact & Results
 
 RE US launched on 2/24/2025 (4 days ahead of target), powering ~72% of US navigation traffic. Weblab delivered +$61MM GCCP (Prob>0=0.78) and +8MM Paid Units (Prob>0=0.89). This completed the first milestone of the 2025 QBR goal to launch Refinement Engine worldwide.
+
+## Links
+
+- [Refinement Engine US Launch Wiki](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/Navigation/RefinementEngineLaunchUS/)
+- [SEARCH_SPT_1043600 Pre-weblab Evaluation](https://quip-amazon.com/bgINAMSrtOHA)
+- [Signing-off RE US Launch with Replay Evaluation](https://quip-amazon.com/qpMLAhQ4bjBg)
+- [Configuring the First RE Weblab](https://quip-amazon.com/b8EoAhA7stUw)
+- [RE Non-Loom Traffic Launch](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/Navigation/RefinementEngineLaunchForNonLoomTraffic/)
+- [Weblab Bar Raiser: SEARCH_SPT_1043600](https://w.amazon.com/bin/view/Weblab/BarRaiser/SEARCH_SPT_1043600)
+- [Weblab Bar Raiser: SEARCH_SPT_1179751](https://w.amazon.com/bin/view/Weblab/BarRaiser/SEARCH_SPT_1179751)

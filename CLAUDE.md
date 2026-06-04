@@ -25,12 +25,13 @@ type: project | research | presentation | event
 
 ## Body
 
-4 sections (Summary is required; others expand as the story matures):
+5 sections (Summary is required; others expand as the story matures):
 
 1. **Summary** — 2-3 sentences, standalone, manager-readable
 2. **Context & Problem** — Why this work was needed
 3. **What I Did** — First person, YOUR decisions and contributions
 4. **Impact & Results** — Quantified outcomes where possible
+5. **Links** — References to design docs, wikis, weblabs, Quip docs, etc.
 
 ## Conventions
 

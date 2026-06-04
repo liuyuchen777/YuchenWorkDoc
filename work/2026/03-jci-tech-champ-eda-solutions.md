@@ -8,7 +8,7 @@ type: project
 
 ## Summary
 
-I designed and developed JCITechChampSolutions EDA Solutions — a fully managed, pipeline-deployed CDK solution that provisions Andes data access infrastructure into customer AWS accounts. This eliminated weeks of manual setup per team, reducing onboarding from weeks to 1 day. Six teams are already live (MCP, Vendor PSI, MOST, Promo Pro, VAMOS-BI, Occam), using it for both exploratory analysis and production scheduled data pipelines.
+I designed and developed JCITechChampSolutions EDA Solutions — a fully managed, pipeline-deployed CDK solution that provisions Andes data access infrastructure into customer AWS accounts. This eliminated weeks of manual setup per team, reducing onboarding from weeks to 1 day. Eight teams are already live (MCP, Vendor PSI, MOST, Promo Pro, VAMOS-BI, Occam, Claude Code, UX Evaluation), using it for both exploratory analysis and production scheduled data pipelines.
 
 ## Context & Problem
 
@@ -29,8 +29,15 @@ The pipeline auto-deploys upgrades (Spark versions, security patches, connector 
 ## Impact & Results
 
 - Onboarding time: weeks → 1 day (single CR to first Andes query)
-- 6 teams onboarded and live: JP Retail MCP, Vendor PSI/PSL, MOST, Promo Pro, VAMOS-BI, Occam
+- 8 teams onboarded and live: JP Retail MCP, Vendor PSI/PSL, MOST, Promo Pro, VAMOS-BI, Occam, TEDS Claude Code, UX Evaluation
 - Zero infrastructure maintenance overhead for customers — pipeline auto-deploys all upgrades
 - Consistent security: FGAC + Lake Formation + least-privilege IAM centrally enforced, no per-team drift
 - Cost efficiency: serverless compute means teams pay only for what they query
 - Teams like Vendor PSI, Promo Pro, and JP Retail MCP use it for production scheduled data pipelines
+
+## Links
+
+- [Design doc (HLD)](https://quip-amazon.com/qT75AZ2m7z50/HLD-JCI-TEDS-EDA-Solution)
+- [Design feedback](https://quip-amazon.com/HMaCA4ueCeGE/Design-Feedback-for-HLD-JCI-TEDS-EDA-Solution)
+- [Onboarding wiki](https://w.amazon.com/bin/view/JCI/JCI-TEDS/Products/JCITechChampSolutions)
+- [Pipeline (onboarded projects)](https://pipelines.amazon.dev/pipelines-wip/JCITechChampSolutions)

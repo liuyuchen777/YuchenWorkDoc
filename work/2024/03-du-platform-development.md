@@ -25,3 +25,10 @@ I collaborated with James to implement refinement blocklisting within DU. We def
 ## Impact & Results
 
 Evolved DU from a single-use video pipeline into a multi-use platform. The BDI namespace decision simplified onboarding for new clients. Refinement blocklisting enabled fine-grained control over refinement quality in production.
+
+## Links
+
+- [Document Understanding Wiki](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/)
+- [BDI Integration](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/BDIIntegration)
+- [DU Pipeline Redesign](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/DuPipelineRedesign/)
+- [DU for Navigation](https://w.amazon.com/bin/view/Search/SST-NLP/DocE/DocumentUnderstanding/Navigation/)
