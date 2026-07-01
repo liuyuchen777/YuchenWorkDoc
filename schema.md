@@ -8,8 +8,7 @@ Every markdown file has the same minimal frontmatter:
 ---
 title: Human-readable title
 description: One-line summary (your manager will scan these)
-year: 2025
-quarter: Q2          # or Q1-Q3 for multi-quarter work
+time: 2025 Q2        # or "2025 Q1-Q3", "2025 Q4 - 2026 Q2" for ranges
 type: project        # project | research | presentation | event
 ---
 ```

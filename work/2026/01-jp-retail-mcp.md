@@ -1,8 +1,7 @@
 ---
 title: JCI Science Model MCP Platform
 description: Architected and built the full MCP platform — AI-powered business intelligence enabling vendor managers to query 1P retail data through natural language, covering 115+ metrics.
-year: 2026
-quarter: Q1
+time: 2026 Q1
 type: project
 ---
 

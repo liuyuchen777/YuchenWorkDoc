@@ -1,8 +1,7 @@
 ---
 title: Video Search Performance Profiling Workflow
 description: Designed, implemented, and productionized an automated performance profiling workflow for video search relevance metrics, supporting LKNN HPO and ranker tuning.
-year: 2023
-quarter: Q3-Q4
+time: 2023 Q3-Q4
 type: project
 ---
 

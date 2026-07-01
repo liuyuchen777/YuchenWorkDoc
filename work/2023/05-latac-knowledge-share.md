@@ -1,8 +1,7 @@
 ---
 title: Video Search Knowledge Sharing Sessions (Bi-weekly)
 description: Co-led bi-weekly LATAC knowledge sharing sessions covering video search architecture, document ingestion, matching, QU signals, and ranking.
-year: 2023
-quarter: Q3
+time: 2023 Q3
 type: presentation
 ---
 

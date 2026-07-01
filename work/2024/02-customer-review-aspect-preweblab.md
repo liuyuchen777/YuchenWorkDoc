@@ -1,8 +1,7 @@
 ---
 title: Pre-Weblab Evaluation for Customer Review Aspect Lexical Weblab
 description: Designed and executed pre-weblab evaluation for the first DU weblab, scaling to hundreds of millions of query-ASINs. Led to +$253MM OPS, -2.83 bps IRR.
-year: 2024
-quarter: Q1-Q2
+time: 2024 Q1-Q2
 type: project
 ---
 

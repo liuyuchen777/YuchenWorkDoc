@@ -1,8 +1,7 @@
 ---
-title: AVS Unified Evaluation Framework & User Data Mart
+title: User Journey Dataset & UX Evaluation
 description: Designing and building a unified evaluation infrastructure connecting all internal tooling applications to a shared user data mart, enabling continuous measurement and a closed-loop product improvement flywheel.
-year: 2026
-quarter: Q2
+time: 2026 Q2
 type: project
 ---
 

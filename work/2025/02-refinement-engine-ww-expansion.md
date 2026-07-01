@@ -1,8 +1,7 @@
 ---
 title: Refinement Engine Worldwide Expansion
 description: Contributed to RE worldwide expansion — validated infrastructure in EU/FE regions (DE, JP), then rolled out to all 22 locales. Delivered +$53.4MM OPS (DE/JP) and +$21MM OPS (remaining 20 locales).
-year: 2025
-quarter: Q3
+time: 2025 Q3
 type: project
 ---
 

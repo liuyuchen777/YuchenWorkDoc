@@ -1,8 +1,7 @@
 ---
 title: Native AWS Promo Pro Pipeline
 description: Helped build the Native AWS pipeline for Promo Pro, enabling scheduled data processing on NAWS infrastructure.
-year: 2026
-quarter: Q1
+time: 2026 Q1
 type: project
 ---
 

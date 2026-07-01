@@ -1,8 +1,7 @@
 ---
 title: Document Understanding Platform Development
 description: Evolved DU from video-specific pipeline into generalized platform; integrated FTL/BDI, resolved namespace management disagreement, implemented refinement blocklisting.
-year: 2024
-quarter: Q2-Q4
+time: 2024 Q2-Q4
 type: project
 ---
 

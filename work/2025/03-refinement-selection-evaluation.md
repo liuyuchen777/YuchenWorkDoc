@@ -1,30 +1,48 @@
 ---
 title: Refinement Selection Pre-Weblab Evaluation & Quality Monitoring
-description: Owned the design of the RE evaluation system (coverage, utility, relevance metrics), presented at Search Engine + CSNLP MBR. Built pre-weblab evaluation and automated daily quality monitoring.
-year: 2025
-quarter: Q1
+description: Owned the design and implementation of the refinement selection offline evaluation system. Built the pre-weblab evaluation and automated daily quality monitoring to prevent quality degradation.
+time: 2025 Q4 - 2026 Q2
 type: project
 ---
 
 ## Summary
 
-I owned the design of the Refinement Engine evaluation system — a comprehensive framework for measuring refinement selection quality across coverage, utility, and relevance dimensions. I also implemented pre-weblab evaluation methodology and an automated daily quality monitoring workflow. The system design was presented at the Search Engine + CSNLP MBR.
+I owned the design and implementation of the Refinement Engine offline evaluation system — a comprehensive framework for measuring refinement selection quality across coverage, utility, duplication, and relevance dimensions. By applying statistical methods inspired by weblab metrics deep-dive tool (APT), I built a pre-weblab evaluation pipeline and automated daily quality monitoring that reduced experiment feedback loops from months to hours.
 
 ## Context & Problem
 
-In refinement selection, a critical challenge was the absence of a comprehensive evaluation system to assess the impact and performance of newly implemented features. During the RE migration and experimentation with new refinement selection algorithms, there was no systematic way to measure parity and quality changes between the existing system and the RE with new algorithms.
+In 2024, the Search Engine Technologies (SET) org decided to deprecate the legacy refinement selection system (ARPS) and migrate to a search-engine-backed system, Refinement Engine (RE), to improve the search navigation experience. The refinement selection problem is recommending a set of refinements (search result filters) and associated pickers (filter values) based on customer query intent.
+
+During this migration, a critical gap emerged: there was no comprehensive evaluation system to assess the quality impact of changes before launching a weblab. Historically, we relied solely on weblab (A/B testing) results to validate customer impact, which suffered from three limitations:
+
+1. costly: each weblab required weeks to months of SDE effort for integration and instrumentation;
+2. slow: search weblab criteria mandated months-long experiments to reach statistical significance;
+3. insensitive: results were reported on business-outcome metrics (revenue, clicks) that are noisy and difficult to attribute to refinement quality changes.
+
+This meant scientists and engineers had no rapid signal on whether a refinement algorithm change was an improvement or regression, creating a bottleneck for iteration.
 
 ## What I Did
 
-I owned the end-to-end design of the evaluation system, defining metric families across three dimensions: (1) Coverage — ensuring we cover 85%+ of traffic-weighted queries with sufficient refinement depth; (2) Utility — measuring value through Active Search Refinement Rate and high-value actions (purchases, Add-to-Cart); (3) Relevance — guarding against irrelevant, preference-unaware, or duplicated refinements. The framework supports comparative evaluation with statistical significance (Bayesian probability of positive return).
+I proposed and built an offline evaluation system that decouples quality measurement from live experimentation. The system uses a traffic-replay mechanism with feature flags to generate paired result sets (control v.s. treatment) from the same query sample, then applies comparative statistical analysis to quantify the treatment effect.
 
-I implemented the system employing strategic request sampling, production system replay with new features, metric computation, and systematic comparison against existing system benchmarks. I also designed the offline evaluation pipeline (treating RE as a blackbox via replay) and explored machine-assisted annotation using LLM-based label synthesis and SageMaker GroundTruth crowdsourcing.
+Metric Design: Collaborating with Senior Applied Scientist, I defined metric families across four dimensions:
 
-To enable continuous quality assurance, I developed an automated workflow that conducts daily evaluations using a standardized query set, continuously monitoring and visualizing both performance variations and metric drifts in production.
+1. **Coverage**: measuring the fraction of traffic-weighted queries served with sufficient refinement depth (target: 85%+);
+2. **Utility**: capturing value through Active Search Refinement Rate and high-value downstream actions (purchases, Add-to-Cart);
+3. **Relevance**: scoring refinement-to-query alignment using LLM-based relevance labels;
+4. **Duplication**: detecting semantically overlapping or redundant refinements within a result set, both cross-refinement duplication and picker-level duplication across different refinements.
+
+**Statistical Comparative Analysis.** For each metric, the system computed per-query differences between control and treatment arms (with mean-imputation for queries present in only one arm). Then modeled the distribution of these paired differences using a t-distribution and computed the Probability of Positive Return (PPR). Additionally, the system computed two-sided paired t-test p-values for hypothesis testing and relative lift (ATE / control mean) for effect size. For set-level overlap analysis, the system computed Jaccard similarity and control/treatment-only rates across refinement and picker sets to quantify how much the two arms diverged in their recommendations.
+
+I implemented the evaluation pipeline, includes traffic sampling, traffic replay, single arm metrics computation and comparative metrics analysis components.
+
+**Daily Quality Monitoring.** Beyond pre-weblab evaluation, I extended the system into a continuous quality assurance framework. The upstream data source for refinement selection is owned by Amazon Selection and Catalog Systems (ASCS), and ingested into the search backend without guardrails before. Any upstream data quality regression (e.g. manually delete of multiple refinements) could silently degrade the customer navigation experience. To address this, I built an automated daily monitoring pipeline that runs the evaluation framework against a standardized traffic-weighted query set, computes all metric dimensions, and surfaces regressions through alerting and visualization dashboards. This transforms the evaluation system from a one-off experiment tool into a production guardrail that catches customer experience degradation caused by upstream data issues before they compound.
 
 ## Impact & Results
 
-Established the first systematic evaluation pipeline for refinement selection, enabling data-driven decisions for RE migration and new algorithm experiments. Daily monitoring catches metric regressions before they reach customers.
+- **Accelerated iteration velocity**: Reduced the feedback loop for refinement algorithm changes from months (weblab-dependent) to hours (offline replay), enabling scientists to validate new selection algorithms and engineers to confidently dial up weblabs with quantitative evidence from evaluation reports.
+- **Established pre-weblab sign-off process**: The evaluation system became a standard gating step for the RE US weblab launch (end of 2024) and the 2025 worldwide expansion, providing stakeholders with data-driven confidence before committing to live experimentation.
+- **Production quality guardrail**: Daily monitoring pipeline catches upstream data regressions that would otherwise silently degrade customer navigation experience, preventing compounding issues before they surface in business metrics.
 
 ## Links
 

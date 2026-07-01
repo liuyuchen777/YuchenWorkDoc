@@ -1,8 +1,7 @@
 ---
 title: JCITechChampSolutions EDA Solutions for Andes from Native AWS
 description: Designed and built a fully managed CDK solution that provisions Andes data access infrastructure (Redshift Serverless, Glue ETL, EMR Serverless) into customer AWS accounts via pipeline deployment. 6 teams onboarded, reducing setup from weeks to 1 day.
-year: 2026
-quarter: Q1
+time: 2026 Q1
 type: project
 ---
 
