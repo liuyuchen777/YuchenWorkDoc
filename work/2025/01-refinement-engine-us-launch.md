@@ -1,6 +1,6 @@
 ---
 title: Refinement Engine US Launch
-description: Contributed to the US launch of Refinement Engine — a Lucene-based search backend replacing ARPS for refinement selection. Delivered +$61MM GCCP, +8MM Paid Units.
+description: Contributed to the US launch of Refinement Engine, a Lucene-based search backend replacing ARPS for refinement selection. Delivered +$61MM GCCP, +8MM Paid Units.
 time: 2025 Q1
 type: project
 ---
@@ -11,7 +11,7 @@ I contributed to the Refinement Engine (RE) US launch, a new Lucene-based search
 
 ## Context & Problem
 
-The Refinement Engine treats identifying useful refinements as an information retrieval problem — given query context, it selects relevant refinements from its index, decoupling data source from selection model. The US launch (weblab SEARCH_SPT_1043600) required validating that the new architecture met launch criteria across latency, business metrics, and relevance guardrails before replacing ARPS on Loom traffic.
+The Refinement Engine treats identifying useful refinements as an information retrieval problem: given query context, it selects relevant refinements from its index, which decouples the data source from the selection model. The US launch (weblab SEARCH_SPT_1043600) required validating that the new architecture met launch criteria across latency, business metrics, and relevance guardrails before replacing ARPS on Loom traffic.
 
 ## What I Did
 

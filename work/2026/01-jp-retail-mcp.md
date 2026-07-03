@@ -1,13 +1,13 @@
 ---
 title: JCI Science Model MCP Platform
-description: Architected and built the full MCP platform — AI-powered business intelligence enabling vendor managers to query 1P retail data through natural language, covering 115+ metrics.
+description: Architected and built the full MCP platform, an AI-powered business intelligence system that lets vendor managers query 1P retail data through natural language, covering 115+ metrics.
 time: 2026 Q1
 type: project
 ---
 
 ## Summary
 
-I designed, built, and operate the JP Retail MCP platform — an AI-powered business intelligence system serving 301 active users (as of May 2026) across 6+ departments. The platform enables vendor managers and brand specialists to query 1P retail data, knowledge, workflow and science model outputs through natural language, replacing manual spreadsheet analysis with self-service analytics.
+I designed, built, and operate the JP Retail MCP platform, an AI-powered business intelligence system serving 301 active users (as of May 2026) across 6+ departments. It lets vendor managers and brand specialists query 1P retail data, knowledge, workflow, and science model outputs through natural language, replacing manual spreadsheet analysis with self-service analytics.
 
 ## Context & Problem
 

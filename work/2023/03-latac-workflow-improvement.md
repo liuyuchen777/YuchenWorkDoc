@@ -11,7 +11,7 @@ I proposed and led an improvement plan for the LATAC workflow, addressing accumu
 
 ## Context & Problem
 
-The LATAC workflow was initially launched in 2020 as an internal analysis toolkit for evaluating analyzer changes. It had expanded to include document language identification, offline evaluation, matchset analysis, and trivial query identification. This rapid expansion led to accumulated technical debt — users struggled with composing correct JSON input documents, leading to invalid inputs and failed workflow executions.
+The LATAC workflow was initially launched in 2020 as an internal analysis toolkit for evaluating analyzer changes. It had expanded to include document language identification, offline evaluation, matchset analysis, and trivial query identification. This rapid expansion led to accumulated technical debt. Users struggled to compose correct JSON input documents, which caused invalid inputs and failed workflow executions.
 
 ## What I Did
 

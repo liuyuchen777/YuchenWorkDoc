@@ -30,8 +30,8 @@ In early 2025, I made an internal transfer to JCI (Japan Consumer Innovation), r
 
 # Current Role
 
-I am a Software Development Engineer II in Japan Consumer Innovation (JCI). I build the JP Retail MCP platform — an AI-powered business intelligence system that enables vendor managers to query retail metrics, run what-if analyses, and generate business insights through natural language interaction with MCP (Model Context Protocol) tools.
+I am a Software Development Engineer II in Japan Consumer Innovation (JCI). I build the JP Retail MCP platform, an AI-powered business intelligence system that lets vendor managers query retail metrics, run what-if analyses, and generate business insights through natural language interaction with MCP (Model Context Protocol) tools.
 
-# Previous Role: CSNLP (Apr 2023 – Jan 2025)
+# Previous Role: CSNLP (Apr 2023 to Jan 2025)
 
 I was an SDE in Core Search NLP (CSNLP), Document Enhancement (DocE) team. I worked on video search ranking features, customer review aspect integration into search, and the Refinement Engine and its evaluation system. My focus areas included building evaluation/profiling workflows, pre-weblab evaluation methodologies, and search infrastructure development.

@@ -39,6 +39,7 @@ type: project | research | presentation | event
 - Year-based subdirectories in `work/`
 - Write in first person
 - This package is open to my manager — keep Summaries polished
+- After creating or updating any work artifact (`work/**`, `profile.md`), run the `humanizer` skill on the changed prose to strip AI writing patterns (em dashes, copula avoidance, rule-of-three, promotional language). Keep the neutral, factual register — do not inject first-person opinion or personality into these technical docs. If the `humanizer` skill is not found, install it by following [github.com/blader/humanizer](https://github.com/blader/humanizer)
 
 ## Generation (On-Demand)
 

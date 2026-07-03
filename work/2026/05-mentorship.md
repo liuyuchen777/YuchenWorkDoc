@@ -1,6 +1,6 @@
 ---
 title: Mentorship
-description: Mentoring two L4 engineers — Amane Takeuchi (BIE, FC Support) and Alex He (SDE, Search/CSNLP) — on technical growth and career development.
+description: Mentoring two L4 engineers, Amane Takeuchi (BIE, FC Support) and Alex He (SDE, Search/CSNLP), on technical growth and career development.
 time: 2026 Q1
 type: event
 ---
@@ -11,5 +11,5 @@ I am mentoring two L4 engineers: Amane Takeuchi (BIE in Non-Local FC Fixed Suppo
 
 ## Links
 
-- [Alex He (alexxhe)](https://phonetool.amazon.com/users/alexxhe) — SDE, Search, L4
-- [Amane Takeuchi (amanetak)](https://phonetool.amazon.com/users/amanetak) — BIE, Non-Local FC Fixed Support, L4
+- [Alex He (alexxhe)](https://phonetool.amazon.com/users/alexxhe): SDE, Search, L4
+- [Amane Takeuchi (amanetak)](https://phonetool.amazon.com/users/amanetak): BIE, Non-Local FC Fixed Support, L4

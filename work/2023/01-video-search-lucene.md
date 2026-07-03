@@ -15,7 +15,7 @@ When the Lucene work group began working on video search, we only had high-level
 
 ## What I Did
 
-I advocated for the video search Lucene work group to establish a workflow management process. With this cooperation model, we accomplished 8 subtasks in M1, 11 subtasks in M2, and 39 subtasks in M3, demonstrating increasing productivity through improved organization and tracking. I also ran twice-weekly Lucene video search sync meetings to regularly share updates on task progress and ensure alignment.
+I advocated for the video search Lucene work group to establish a workflow management process. Under this model, the team completed 8 subtasks in M1, 11 in M2, and 39 in M3 as the tracking and task breakdown improved. I also ran twice-weekly Lucene video search sync meetings to share progress and keep the team aligned.
 
 I implemented the first QU feature, Query to Product Type (q2pt), in video search. The goal was to identify potential blockers for incorporating QU features into the ranking model. Prior to data ingestion, I conducted proof-of-concept testing in Lucene unit test and metadata functional test to validate feasibility. After consulting with PE Mike Sokolov, we determined it best to utilize the newly developed virtual function `querydoc-score` instead of the existing `query-score` used in product search. I found that `querydoc-score` did not support the required float data type, and worked with Egor from the Dublin Lucene team to create a change request that would add float number support. Once ingested, I validated the q2pt signal functionality on the dev silo before handing off to others working on the full ranking implementation.
 
@@ -23,7 +23,7 @@ In addition to q2pt, I also developed ranking features for adult filtering, brow
 
 ## Impact & Results
 
-The structured process enabled the team to scale from 8 subtasks (M1) to 39 subtasks (M3) in successive milestones. The QU features I developed (q2pt, adult filtering, query specificity) became foundational ranking signals for the video search view.
+The structured process helped the team grow from 8 subtasks in M1 to 39 in M3 across successive milestones. The QU features I developed (q2pt, adult filtering, query specificity) are now core ranking signals for the video search view.
 
 ## Links
 

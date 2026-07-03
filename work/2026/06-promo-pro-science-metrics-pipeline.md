@@ -7,11 +7,11 @@ type: project
 
 ## Summary
 
-I built the pipeline infrastructure for PromoProETL — a Native AWS Step Functions-orchestrated Glue ETL pipeline that processes promotion benchmarking data (Customer Acquisition Cost, conversion, OPS metrics) and publishes results to S3 and Andes. My contributions focused on automation, observability, and developer experience for the CDK infrastructure package.
+I built the pipeline infrastructure for PromoProETL, a Native AWS Glue ETL pipeline orchestrated by Step Functions that processes promotion benchmarking data (Customer Acquisition Cost, conversion, OPS metrics) and publishes results to S3 and Andes. My work focused on automation, observability, and developer experience for the CDK infrastructure package.
 
 ## Context & Problem
 
-The Promo Pro team needed a production-grade ETL pipeline to process vendor promotion benchmarking data on a scheduled basis. The pipeline required automated triggering when upstream data landed, monitoring with ticketing for production failures, and enforced code quality gates — all on Native AWS infrastructure using Step Functions, Glue, and S3.
+The Promo Pro team needed a production-grade ETL pipeline to process vendor promotion benchmarking data on a schedule. The pipeline had to trigger automatically when upstream data landed, monitor for production failures with ticketing, and enforce code quality gates, all on Native AWS infrastructure using Step Functions, Glue, and S3.
 
 ## What I Did
 

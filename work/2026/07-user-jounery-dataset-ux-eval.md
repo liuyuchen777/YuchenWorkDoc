@@ -7,11 +7,11 @@ type: project
 
 ## Summary
 
-I am designing and building a unified evaluation framework for AVS internal tooling — a 3-layer architecture that connects all user-facing applications (VAMOS, JP Retail MCP, DataQuest MCP, Paid Service, Catalyst, Jellyfish) to a shared User Data Mart, enabling cross-app user journey analysis and a closed-loop product improvement flywheel.
+I am designing and building a unified evaluation framework for AVS internal tooling: a 3-layer architecture that connects all user-facing applications (VAMOS, JP Retail MCP, DataQuest MCP, Paid Service, Catalyst, Jellyfish) to a shared User Data Mart. It enables cross-app user journey analysis and a closed-loop product improvement flywheel.
 
 ## Context & Problem
 
-Multiple internal tools serve VM/BS and Vendor users, but each application tracks usage in isolation — clickstream logs, MCP invocation logs, and app-specific events live in separate silos. There is no unified view of user behavior across tools, making it impossible to answer questions like "which workflows span multiple tools?" or "where do users drop off across the tooling ecosystem?" Without this, product improvement decisions are made per-app without cross-tool context.
+Multiple internal tools serve VM/BS and Vendor users, but each application tracks usage in isolation. Clickstream logs, MCP invocation logs, and app-specific events live in separate silos. There is no unified view of user behavior across tools, so we cannot answer questions like "which workflows span multiple tools?" or "where do users drop off across the tooling ecosystem?" Without it, product improvement decisions get made per-app with no cross-tool context.
 
 ## What I Did
 
@@ -21,7 +21,7 @@ Multiple internal tools serve VM/BS and Vendor users, but each application track
 
 ## Impact & Results
 
-Work in progress — architecture defined, infrastructure scaffolded. Target consumers include VAMOS Adoption Dashboard, MCP UX Evaluation, workflow extraction, and user-data-driven recommendations.
+Work in progress. The architecture is defined and the infrastructure is scaffolded. Target consumers include the VAMOS Adoption Dashboard, MCP UX Evaluation, workflow extraction, and user-data-driven recommendations.
 
 ## Links
 
