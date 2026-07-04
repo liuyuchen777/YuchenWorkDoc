@@ -1,0 +1,79 @@
+---
+role: Software Engineer 2 (ISE)
+company: Microsoft
+location: Tokyo, Tokyo, Japan
+source: https://www.linkedin.com/jobs/view/4433835829/
+date: 2026-07-04
+---
+
+Overview
+
+Do you enjoy solving problems, writing software, and working with customers? Do you want to join a team where learning about new technology is part of our work every day? Then, come join us!
+
+The Industry Solutions Engineering (ISE) team is a global engineering organization that works directly with customers looking to leverage the latest technologies to address their toughest challenges.
+
+We work closely with our customers' engineers to jointly develop code for cloud-based solutions that can accelerate their organization. We work in collaboration with Microsoft product teams, partners, and open-source communities to empower our customers to do more with the cloud. We develop solutions side-by-side with our customers through collaborative innovation to solve their challenges.
+
+This work involves the development of broadly applicable, high-impact solution patterns and open-source software assets that contribute to the Microsoft platform.
+
+We are hiring a Software Engineer 2 with deep experience and expertise in designing and delivering solutions using modern software engineering practices and cloud technologies. You will be part of a cross-functional team of software engineers, data scientists, technical program managers, and designers who work side-by-side with high-impact and strategic customers and their engineers to build innovative solutions.
+
+As part of our team, you will thrive in working with a variety of technologies, not just Microsoft technology. You will solve exciting business problems, contribute to open source, and collaborate with Microsoft product teams.
+
+Microsoft's mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond.
+
+Responsibilities
+
+Works with appropriate stakeholders to determine user requirements for a set of features.
+
+Contributes to the identification of dependencies, and the development of design documents for a product area with little oversight.
+
+Creates and implements code for a product, service, or feature, reusing code as applicable.
+
+Contributes to efforts to break down larger work items into smaller work items and provides estimation.
+
+Remains current in skills by investing time and effort into staying abreast of current developments that will improve the availability, reliability, efficiency, observability, and performance of products while also driving consistency in monitoring and operations at scale.
+
+Embodies our culture and values
+
+Qualifications
+
+Required/Minimum Qualifications (RQs/MQs)
+
+Bachelor's Degree in Computer Science, or related technical discipline AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python
+
+OR equivalent experience.
+
+Fluency in Japanese and English language skills
+
+Additional Or Preferred Qualifications (PQs)
+
+Bachelor's Degree in Computer Science
+
+OR related technical field AND 7+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python
+
+OR Master's Degree in Computer Science or related technical field AND 5+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python
+
+OR equivalent experience.
+
+Enjoy travel and are comfortable with travel up to 25%
+
+Our team prides itself on embracing a growth mindset, inspiring excellence, and encouraging everyone to share their unique viewpoints and be their authentic selves. Join us and help create life-changing innovations that impact billions around the world!
+
+At Microsoft, we are seeking people who have a passion for the positive impact technology can have on communities and for making a difference in the world. Within ISE, you will find a wide range of backgrounds, perspectives, personal and cultural experiences which are vital to our success with our customers. It's an informal and flexible work environment and you'll be welcome to work in the way that best enables you to get your job done.
+
+We invest in your health, wellness, and financial future by offering a competitive package including a wide range of benefits built around your personal needs and those close to you.
+
+Benefits/perks listed below may vary depending on the nature of your employment with Microsoft and the country where you work.
+
+#ISEngineering
+
+#WSS
+
+This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled.
+
+Microsoft is an equal opportunity employer.
+
+All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex including pregnancy, sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances.
+
+If you need assistance with religious accommodations or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.
