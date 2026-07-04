@@ -1,0 +1,73 @@
+---
+role: Staff Software Engineer, Ingestion
+company: Treasure AI
+location: Tokyo, Japan
+source:
+date: 2026-07-04
+---
+
+About the job
+Treasure AI
+
+Treasure AI is the agentic experience platform built to acquire, retain, and grow your most valuable customers. Powered by AI, Treasure AI is shaped by human creativity and always-on through continuous, context-driven action.
+
+Furthermore, Treasure AI employees are enthusiastic, data-driven, and customer-obsessed. We are a team of drivers--self-starters who take initiative, anticipate needs, and proactively jump in to solve problems. Our actions reflect our values of honesty, reliability, openness, and humility.
+
+About The Ingestion Team
+
+The Ingestion team owns the mission-critical systems that serve as the front door to the Treasure Data platform. These systems must handle billions of events per day, absorb bursty and unpredictable traffic, and evolve safely as customer needs and scale grow.
+
+At this level, Ingestion is not just about throughput--it is about long-term platform correctness, cost control, and architectural simplicity at scale.
+
+Your Role
+
+As a Staff Software Engineer, You Will Operate As a Senior Technical Leader Within The Ingestion Team And Across The Platform
+
+Lead the design and evolution of large-scale ingestion architectures supporting multi-fold traffic growth
+Own complex, cross-service initiatives that span multiple teams or domains
+Anticipate scaling, reliability, and cost challenges before they impact customers
+Set technical direction for major subsystems and influence broader platform architecture
+Drive improvements in operational excellence, incident response, and system observability
+Partner closely with engineering leadership, product, and customer-facing teams on strategic initiatives
+Serve as a technical mentor and multiplier, elevating the skills and effectiveness of engineers across the organization
+Participate in on-call rotations with a focus on systemic fixes rather than tactical responses
+
+About You
+
+You are a senior backend engineer with a strong track record of owning and evolving production systems at scale. You:
+
+Have 6+ years of professional software engineering experience
+Business-level English proficiency and High-level Japanese proficiency
+Have led the design and operation of distributed systems handling high-volume, mission-critical workloads
+Think in terms of system behavior, failure modes, and long-term tradeoffs--not just features
+Are comfortable making and defending architectural decisions with significant business impact
+Communicate complex technical ideas clearly to both technical and non-technical stakeholders
+Are fluent in Kotlin/Java ecosystems and experienced with AWS-based architectures
+AI first mindset; you are open to experimenting and leveraging AI in your day to work
+
+Bonus Points
+
+Deep experience with large-scale streaming platforms or ingestion pipelines
+Experience driving platform evolution through multiple generations of scale
+Proven ability to reduce infrastructure cost while increasing reliability
+Experience influencing technical direction beyond a single team
+
+Physical Requirements
+
+3 days in Treasure AI Office
+
+Our Dedication To You
+
+We value and promote diversity, equity, inclusion, and belonging in all aspects of our business and at all levels. Success comes from acknowledging, welcoming, and incorporating diverse perspectives.
+
+Diverse representation alone is not the desired outcome. We also strive to create an inclusive culture that encourages growth, ownership of your role, and achieving innovation in new and unique ways. Your voice will be heard, and we will help amplify it.
+
+Agencies And Recruiters
+
+We cannot consider your candidate(s) without a contract in place. Any resumes received without having an active agreement will be considered gratis referrals to us. Thank you for your understanding and cooperation!
+
+Treasure AI moves marketing and data teams beyond legacy martech SaaS toward autonomous, ROI-driven AI agents that operate continuously, while keeping the human in the loop. With built-in governance, Treasure AI is powered by an always-up-to-date understanding of each customer for AI to act on.
+
+The result is always-on marketing execution that compounds over time: smarter engagement, stronger retention, and measurable growth.
+
+Treasure AI's agentic experience platform is available across web, mobile, and desktop--bringing your customer intelligence to every workflow, wherever your team works.
