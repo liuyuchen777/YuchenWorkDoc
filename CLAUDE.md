@@ -7,6 +7,10 @@ Markdown-based work summary for HR events (annual reviews, promotions, manager c
 - `profile.md` — Role intro, team history
 - `work/<year>/<slug>.md` — All entries (projects, research, presentations, events)
 - `schema.md` — Frontmatter reference
+- `jd/` — Job descriptions used to tailor resume variants
+- `resume/` — LaTeX resume sources, including `base.latex` and JD-specific variants
+- `resume_rendered/` — Rendered resume PDFs that are committed with the source
+- `.agent/resume-variation/SKILL.md` — Repo-local skill draft for resume tailoring
 - `_generated/` — Compiled outputs (gitignored, reproducible)
 
 ## Frontmatter
@@ -44,3 +48,9 @@ type: project | research | presentation | event
 ## Generation (On-Demand)
 
 When asked to generate a narrative doc (annual review, promo doc, highlights), read ALL relevant source files and compile into a coherent document. Write output to `_generated/`.
+
+## Resume Workflow
+
+When asked to create a resume variation, read the JD from `jd/`, the base resume from `resume/base.latex`, career context from `profile.md`, and relevant evidence from `work/**`. Create the tailored LaTeX source as `resume/<jd-slug>.latex`, run the `humanizer` skill on the final resume source, render it locally with `latexmk`, and copy the final PDF to `resume_rendered/<jd-slug>.pdf`. Keep auxiliary build files under `_generated/latex/`, which is ignored by git.
+
+Keep `resume/base.latex` general-purpose unless the user explicitly asks to update it. Do not invent projects, metrics, technologies, roles, dates, or employers; tailor by selecting, ordering, and rewriting evidence-backed material.

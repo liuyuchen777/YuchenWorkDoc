@@ -3,6 +3,7 @@ title: Persona-Enhanced Action Prediction Research
 description: Participated in a research project for persona inference from behavioral traces for next-action prediction, demonstrating inferred personas outperform self-reported ones with increasing benefit for longer sequences.
 time: 2026 Q1
 type: research
+org: Amazon > Japan Consumer Innovation > Retail Science
 ---
 
 ## Summary

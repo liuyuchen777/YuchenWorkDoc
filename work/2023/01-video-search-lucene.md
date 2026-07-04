@@ -3,6 +3,7 @@ title: Video Search Lucene Ranking & Matching Features
 description: Developed QU-driven ranking features (q2pt, adult filtering, query specificity) and established workflow management for the cross-team Lucene video search work group.
 time: 2023 Q2-Q4
 type: project
+org: Amazon > Product Search > Multi-Language Tokenizer
 ---
 
 ## Summary

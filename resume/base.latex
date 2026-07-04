@@ -1,0 +1,170 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Yuchen LIU}} & Email : \href{mailto:liuyuchen.hust@gmail.com}{liuyuchen.hust@gmail.com}\\
+   & Mobile: +81-80-1305-2116 \\
+   & LinkedIn: {\href{https://www.linkedin.com/in/liuyuchen777/}{liuyuchen777}}
+\end{tabular*}
+
+ %--------SUMMARY------------
+\section{Summary}
+{
+Machine Learning Engineer II at Amazon building AI, ML, data, and search platforms for business, science, and engineering teams.
+Owns ambiguous end-to-end systems across agentic AI, ML pipeline, data infrastructure, experimentation, and product search.
+Known for turning research and business needs into production platforms with measurable adoption, operational guardrails, and faster engineering and science iteration.
+}
+
+%--------SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \item{
+      \textbf{Cloud \& Infrastructure}{: AWS (CDK, SageMaker, Bedrock, ECS, Step Functions, Glue, EMR, Redshift, Athena), Docker, CI/CD}
+   }
+   \item{
+      \textbf{AI, ML \& Data}{: Agentic Systems, MCP, Agent Evaluation, LLM-as-Judge, MLOps, Causal Inference, Spark, SQL}
+   }
+   \item{
+      \textbf{Programming Languages}{: Python, Java, TypeScript}
+   }
+   \item{
+      \textbf{Product \& Systems}{: Search Systems, A/B Experimentation, Data Quality, Observability, Enterprise Integration}
+   }
+   \item{
+      \textbf{Languages}{: English, Japanese (JLPT N1), Mandarin Chinese}
+   }
+ \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Amazon (Japan Consumer Innovation)}{Tokyo, Japan}
+        {Machine Learning Engineer}{July 2025 -- Present}
+        \begin{itemize}[leftmargin=*]
+            \item Architected and operate an AI-powered business intelligence platform that lets retail stakeholders query business metrics, knowledge, workflows, and science model outputs through natural language; adopted across multiple internal departments.
+
+            \item Built the platform's online query path, offline ETL path, domain skill warehouse, observability, and security controls, including layered authentication, team-based access control, SQL validation, structured logging, and usage attribution.
+
+            \item Designed a multi-level agent evaluation framework combining deterministic graders, SQL/tool-call validation, partial-credit result checks, and LLM-as-Judge analysis scoring; established it as the quality gate for shipping new agent capabilities without regressing existing workflows.
+
+            \item Designed and built an end-to-end causal inference ML framework using AWS, SageMaker, and EconML, spanning feature-store construction, training/validation preparation, estimator comparison, and production training pipelines; reduced model iteration from weeks to hours.
+
+            \item Built a reusable AWS CDK data-access platform that lets teams connect project-owned AWS accounts to Amazon's internal data warehouse for scheduled pipelines and ad-hoc analysis, replacing painful bespoke setup with standardized Redshift Serverless, Glue ETL, EMR Serverless, IAM, and Lake Formation provisioning.
+
+            \item Delivered production-grade data pipelines for promotion benchmarking and retail science metrics with Step Functions orchestration, event-based triggers, CloudWatch alarms, automated ticketing and developer tooling.
+
+            \item Mentor junior engineers and business intelligence engineers on technical design, implementation planning, and career growth.
+        \end{itemize}
+
+    \resumeSubheading
+        {Amazon (Product Search)}{Tokyo, Japan}
+        {Software Development Engineer}{Apr 2023 -- Jun 2025}
+        \begin{itemize}[leftmargin=*]
+            \item Designed and built an offline evaluation system for search refinement selection, using traffic replay, feature flags, paired statistical analysis, relevance scoring, duplication analysis, and continuous monitoring to give scientists and engineers rapid pre-A/B quality signals.
+
+            \item Turned the evaluation system into a production guardrail for search navigation data quality, replacing slow weblab-only feedback loops with automated daily checks and reducing algorithm iteration from months to hours.
+
+            \item Contributed to the launch and worldwide expansion of a Lucene-based refinement selection backend replacing a legacy navigation system; owned pre-launch evaluation, launch readiness, change management, and validation across regional rollout phases.
+
+            \item Designed and executed pre-weblab evaluation for customer-review aspect search features, combining multiple offline evaluation tools to validate relevance and recall guardrails before launch decisions.
+
+            \item Initiated investigation into customer-review aspect integration for product search, reviewed Lucene, nearest-neighbor retrieval, bi-encoder, and embedding infrastructure options, and proposed evaluation architecture improvements for future launches.
+
+            \item Built query-understanding ranking and matching features for video search, including product-type, adult-filtering, browse-node, and query-specificity signals; coordinated cross-team execution through structured milestone tracking and recurring technical syncs.
+        \end{itemize}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tokyo Institute of Technology}{Tokyo, Japan}
+      {M.Eng. in Information and Communication Engineering}{Sep 2020 -- Sep 2022}
+    \resumeSubheading
+      {Huazhong University of Science and Technology}{Wuhan, China}
+      {B.Eng. in Electronic Information Engineering}{Sep 2016 -- Jun 2020}
+  \resumeSubHeadingListEnd
+
+%------------LANGUAGE-------------------
+
+
+
+%-------------------------------------------
+\end{document}

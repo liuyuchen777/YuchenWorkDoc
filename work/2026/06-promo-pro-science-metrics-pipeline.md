@@ -1,8 +1,9 @@
 ---
-title: Native AWS Promo Pro Pipeline
+title: Native AWS Promo Pro Science Metrics Pipeline
 description: Helped build the Native AWS pipeline for Promo Pro, enabling scheduled data processing on NAWS infrastructure.
 time: 2026 Q1
 type: project
+org: Amazon > Japan Consumer Innovation > Retail Science
 ---
 
 ## Summary

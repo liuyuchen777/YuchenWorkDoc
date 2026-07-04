@@ -3,6 +3,7 @@ title: Mentorship
 description: Mentoring two L4 engineers, Amane Takeuchi (BIE, FC Support) and Alex He (SDE, Search/CSNLP), on technical growth and career development.
 time: 2026 Q1
 type: event
+org: Amazon > Japan Consumer Innovation > Retail Science
 ---
 
 ## Summary

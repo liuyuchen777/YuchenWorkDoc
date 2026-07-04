@@ -3,6 +3,7 @@ title: LATAC Workflow Improvement & JSON Schema
 description: Led plan to address LATAC workflow technical debt; implemented JSON schema for input/output validation, enabling automated testing and better developer experience.
 time: 2023 Q3-Q4
 type: project
+org: Amazon > Product Search > Multi-Language Tokenizer
 ---
 
 ## Summary

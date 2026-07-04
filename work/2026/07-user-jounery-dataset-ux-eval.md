@@ -3,6 +3,7 @@ title: User Journey Dataset & UX Evaluation
 description: Designing and building a unified evaluation infrastructure connecting all internal tooling applications to a shared user data mart, enabling continuous measurement and a closed-loop product improvement flywheel.
 time: 2026 Q2
 type: project
+org: Amazon > Japan Consumer Innovation > Retail Science
 ---
 
 ## Summary

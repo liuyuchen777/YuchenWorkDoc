@@ -3,6 +3,7 @@ title: Customer Review Aspect Early Investigation
 description: Explored leveraging customer review aspect data for search; identified 3 embedding integration approaches and proposed MoE re-architecture for 2024 evaluation needs.
 time: 2024 Q1
 type: research
+org: Amazon > Product Search > Document Understanding
 ---
 
 ## Summary

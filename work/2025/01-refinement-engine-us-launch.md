@@ -3,6 +3,7 @@ title: Refinement Engine US Launch
 description: Contributed to the US launch of Refinement Engine, a Lucene-based search backend replacing ARPS for refinement selection. Delivered +$61MM GCCP, +8MM Paid Units.
 time: 2025 Q1
 type: project
+org: Amazon > Product Search > Document Understanding
 ---
 
 ## Summary

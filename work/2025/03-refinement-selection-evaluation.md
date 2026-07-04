@@ -3,6 +3,7 @@ title: Refinement Selection Pre-Weblab Evaluation & Quality Monitoring
 description: Owned the design and implementation of the refinement selection offline evaluation system. Built the pre-weblab evaluation and automated daily quality monitoring to prevent quality degradation.
 time: 2025 Q4 - 2026 Q2
 type: project
+org: Amazon > Product Search > Document Understanding
 ---
 
 ## Summary

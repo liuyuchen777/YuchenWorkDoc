@@ -3,6 +3,7 @@ title: AI Agent Evaluation Framework for Business Analysis Agent
 description: Designed a multi-level agent evaluation framework based on Anthropic's eval methodology, combining deterministic graders with LLM-as-judge to measure agent quality, catch regressions, and validate new capabilities for JP Retail MCP.
 time: 2026Q1 -
 type: project
+org: Amazon > Japan Consumer Innovation > Retail Science
 ---
 
 ## Summary

@@ -3,6 +3,7 @@ title: End-to-End Causal Inference Framework for Vendor Sales Impact Estimation
 description: Designed and built a DML-based causal inference framework using EconML, spanning feature store construction off raw business tables, estimator experimentation, and SageMaker training. Increased vendor coverage by +1960 bps (NA) and +1570 bps (JP).
 time: 2025 Q3-Q4
 type: project
+org: Amazon > Japan Consumer Innovation > Retail Science
 ---
 
 ## Summary
