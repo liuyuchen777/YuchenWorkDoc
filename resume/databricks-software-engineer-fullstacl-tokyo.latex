@@ -85,7 +85,7 @@
  %--------SUMMARY------------
 \section{Summary}
 {
-Machine Learning Engineer II at Amazon building AI, ML, Agent and data platforms in Python, Java, TypeScript, and AWS. Work covers the model and agent lifecycle: data pipelines, training, evaluation, deployment, monitoring, and production guardrails. Most relevant work includes agent platforms, AI/ML evaluation frameworks, SageMaker training pipelines, Spark-backed data access, and tooling for science and business teams.
+Machine Learning Engineer II at Amazon building AI/ML platform systems in Python, Java, TypeScript, Spark, and AWS. Recent work covers agent lifecycle infrastructure, evaluation, deployment guardrails, monitoring, data pipelines, and SageMaker training workflows.
 }
 
 %--------SKILLS------------
@@ -95,10 +95,10 @@ Machine Learning Engineer II at Amazon building AI, ML, Agent and data platforms
       \textbf{Programming}{: Python, Java, TypeScript, SQL}
    }
    \item{
-      \textbf{AI/ML Platforms}{: Agentic Systems, MCP, Agent Evaluation, LLM-as-Judge, MLOps, Causal Inference, EconML}
+      \textbf{AI/ML Platforms}{: Agentic Systems, MCP, Agent Evaluation, LLM-as-Judge, MLOps, Causal Inference, EconML, SageMaker}
    }
    \item{
-      \textbf{Data \& Infrastructure}{: Spark, AWS CDK, SageMaker, Bedrock, Step Functions, Glue, EMR, Redshift, Athena, Docker, CI/CD}
+      \textbf{Data \& Infrastructure}{: Spark, AWS CDK, Bedrock, Step Functions, Glue, EMR, Redshift, Athena, Docker, CI/CD}
    }
    \item{
       \textbf{Systems}{: Observability, Access Control, Data Quality, A/B Experimentation, Search Systems, Enterprise Integration}
@@ -116,13 +116,15 @@ Machine Learning Engineer II at Amazon building AI, ML, Agent and data platforms
         {Amazon (Japan Consumer Innovation)}{Tokyo, Japan}
         {Machine Learning Engineer}{July 2025 -- Present}
         \begin{itemize}[leftmargin=*]
-            \item Architected and now operate an AI-powered analytics platform that lets retail teams query business metrics, knowledge, workflows, and science model outputs through natural language; built the online query path, offline ETL path, domain skill warehouse, and production observability.
+            \item Architected and operate JP Retail MCP, an AI analytics platform that lets retail teams query 115+ metrics, knowledge, workflows, and science model outputs through natural language; grew adoption to 301 monthly active users and 24K invocations in May 2026.
 
-            \item Designed an agent evaluation framework with deterministic graders, SQL and tool-call validation, partial-credit result checks, and LLM-as-Judge scoring; made it the release gate for new agent capabilities and regression protection.
+            \item Built the platform's online query path, offline ETL path, domain skill warehouse, IAM-authenticated MCP gateway, SQL validation, caller attribution, structured logs, and CloudWatch metrics for 6+ departments.
 
-            \item Built a causal inference ML framework on AWS and SageMaker, covering feature-store construction, training and validation data preparation, estimator comparison with EconML, and production training pipelines; reduced model iteration from weeks to hours.
+            \item Designed an agent evaluation framework with deterministic graders, SQL and tool-call validation, partial-credit checks, and LLM-as-Judge scoring; won two Japan Store Hackathon awards and made it the release gate for new agent capabilities.
 
-            \item Built a reusable AWS CDK data-access platform that lets teams connect project-owned AWS accounts to Amazon's internal data warehouse for scheduled pipelines and ad-hoc analysis, replacing bespoke setup with standardized Spark, Redshift, Glue, EMR, IAM, and Lake Formation provisioning.
+            \item Built a causal inference ML framework on AWS and SageMaker, covering feature-store construction, estimator comparison with EconML, and production training pipelines; reduced model iteration from weeks to hours.
+
+            \item Built a reusable AWS CDK data-access platform for Spark-backed pipelines and ad-hoc analysis, standardizing Redshift, Glue, EMR, IAM, and Lake Formation provisioning; onboarded 8 teams and cut setup from weeks to 1 day.
 
             \item Mentor junior engineers and business intelligence engineers through project planning, technical design, implementation reviews, and career development.
         \end{itemize}
@@ -131,9 +133,10 @@ Machine Learning Engineer II at Amazon building AI, ML, Agent and data platforms
         {Amazon (Product Search)}{Tokyo, Japan}
         {Software Development Engineer}{Apr 2023 -- June 2025}
         \begin{itemize}[leftmargin=*]
-            \item Designed and built an offline evaluation system for search refinement selection, using traffic replay, feature flags, paired statistical analysis, relevance scoring, duplication analysis, and continuous monitoring to give scientists and engineers rapid pre-A/B quality signals.
+            \item Designed and built an offline evaluation system for search refinement selection, using traffic replay, feature flags, paired statistical analysis, relevance scoring, duplication analysis, and daily monitoring for rapid pre-A/B quality signals.
 
-            \item Contributed to the launch and worldwide expansion of a Lucene-based refinement selection backend replacing a legacy navigation system; owned pre-launch evaluation, launch readiness, change management, and validation across regional rollout phases.
+            \item Turned the evaluation system into a production guardrail for search navigation data quality, replacing slow weblab-only feedback loops with automated checks and reducing algorithm iteration from months to hours.
+
         \end{itemize}
 
   \resumeSubHeadingListEnd

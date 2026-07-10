@@ -8,11 +8,11 @@ org: Amazon > Japan Consumer Innovation > Retail Science
 
 ## Summary
 
-I am designing and building a unified evaluation framework for AVS internal tooling: a 3-layer architecture that connects all user-facing applications (VAMOS, JP Retail MCP, DataQuest MCP, Paid Service, Catalyst, Jellyfish) to a shared User Data Mart. It enables cross-app user journey analysis and a closed-loop product improvement flywheel.
+I partnered with UX team designed and built a unified user experience evaluation framework for Amazon Vendor Service (AVS) internal and external tooling. It enables cross-app user journey analysis and a closed-loop product improvement flywheel.
 
 ## Context & Problem
 
-Multiple internal tools serve VM/BS and Vendor users, but each application tracks usage in isolation. Clickstream logs, MCP invocation logs, and app-specific events live in separate silos. There is no unified view of user behavior across tools, so we cannot answer questions like "which workflows span multiple tools?" or "where do users drop off across the tooling ecosystem?" Without it, product improvement decisions get made per-app with no cross-tool context.
+There're multiple internal tools serve Vendor Manager (VM) / Brand Specialist (BS) in internal and Vendor users from external, but each application tracks usage in isolation manner. Clickstream logs, MCP invocation logs, and app-specific events live in silos. There is no unified view of user behavior across tools, so we cannot answer questions like "which workflows span multiple tools?" or "where do users drop off across the tooling ecosystem?" Without it, product improvement decisions get made per-app with no cross-tool context.
 
 ## What I Did
 
