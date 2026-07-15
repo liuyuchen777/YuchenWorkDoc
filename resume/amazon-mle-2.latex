@@ -1,0 +1,154 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.1pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlist[itemize]{itemsep=0pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Yuchen LIU}} & Email : \href{mailto:liuyuchen.hust@gmail.com}{liuyuchen.hust@gmail.com}\\
+   & Mobile: +81-80-1305-2116 \\
+   & LinkedIn: {\href{https://www.linkedin.com/in/liuyuchen777/}{liuyuchen777}}
+\end{tabular*}
+
+ %--------SUMMARY------------
+\section{Summary}
+{
+Machine Learning Engineer II at Amazon building production Agent and ML systems with Python, Java, TypeScript, Spark, and AWS. Experience spans agent infrastructure and evaluation, causal inference, model training, data pipelines, observability, and search quality.
+}
+
+%--------SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \item{
+      \textbf{Programming}{: Python, Java, TypeScript, SQL}
+   }
+   \item{
+      \textbf{AI/ML}{: Agentic Systems, MCP, Agent Evaluation, LLM-as-Judge, MLOps, Causal Inference, EconML, SageMaker}
+   }
+   \item{
+      \textbf{Data \& Infrastructure}{: Spark, AWS CDK, Bedrock, Step Functions, Glue, EMR, Redshift, Athena, Docker, CI/CD}
+   }
+   \item{
+      \textbf{Systems}{: Observability, Data Quality, A/B Experimentation, Search Systems}
+   }
+ \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Amazon (Japan Consumer Innovation)}{Tokyo, Japan}
+        {Machine Learning Engineer}{July 2025 -- Present}
+        \begin{itemize}[leftmargin=*]
+            \item Architected and operate JP Retail MCP, an AI analytics platform that lets retail teams query 200+ business metrics, knowledge, workflows, and science model outputs through natural language; grew it to 400+ active users.
+
+            \item Designed an agent evaluation framework with deterministic graders, SQL and tool-call validation, partial-credit checks, and LLM-as-Judge scoring; won two Japan Store Hackathon awards and made it the release gate for new agent capabilities.
+
+            \item Built an end-to-end causal inference framework with EconML and SageMaker, covering feature-store construction, estimator comparison, and production training; reduced model iteration from weeks to hours and expanded vendor coverage by 1,960 bps in North America and 1,570 bps in Japan.
+
+            \item Built a reusable AWS CDK data-access platform for Spark pipelines and ad hoc analysis, standardizing Redshift, Glue, EMR, IAM, and Lake Formation provisioning; onboarded 8 teams and cut setup from weeks to 1 day.
+
+            \item Mentor junior engineers and business intelligence engineers on project planning, technical design, implementation reviews, and career development.
+        \end{itemize}
+
+    \resumeSubheading
+        {Amazon (Product Search)}{Tokyo, Japan}
+        {Software Development Engineer}{Apr 2023 -- Jun 2025}
+        \begin{itemize}[leftmargin=*]
+            \item Designed and built the offline evaluation and daily quality-monitoring system for Refinement Engine, cutting experiment feedback from months to hours and supporting rollout to 22 locales that delivered \$74.4MM in annualized OPS outside the US.
+
+            \item Designed and executed pre-weblab evaluation for a customer-review aspect lexical-matching experiment, analyzing hundreds of millions of query-ASIN pairs to inform launch; the weblab delivered \$253MM in annualized OPS and improved search irrelevant rate by 2.83 bps.
+
+            \item Developed query-understanding features for Lucene video search, including query-to-product-type, adult filtering, browse-node, and query-specificity signals that became core inputs to video search ranking.
+
+        \end{itemize}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tokyo Institute of Technology}{Tokyo, Japan}
+      {M.Eng. in Information and Communication Engineering}{Sep 2020 -- Sep 2022}
+    \resumeSubheading
+      {Huazhong University of Science and Technology}{Wuhan, China}
+      {B.Eng. in Electronic Information Engineering}{Sep 2016 -- Jun 2020}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
